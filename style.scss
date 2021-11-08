@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+}
+
+body > * {
+    grid-column: 2;
+}
+
+button {
+    margin-left: 5px;
+    height: 26px;
+    align-self: center;
+    margin-right: 0;
+    margin-left: auto;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.delete-button, .edit-button {
+    margin-left: 5px;
+    align-self: center;
+    margin-right: 0;
+    margin-left: auto;
+    padding: 3px;
+    color: rgb(230, 104, 104);
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.edit-button {
+    color: rgb(103, 156, 22);
+}
+
+ul {
+    list-style: none;
+}
+
+.list-item {
+    line-height: 1.4em;
+}
+
+li {
+    width: 300px;
+    display: flex;
+    padding: 3px;
+    background: rgb(220, 235, 255);
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.check-box {
+    margin: 5px 10px 5px 5px;
+    cursor: pointer;
+}
+
+.submit-task-field {
+    display: flex;
+    width: 300px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#new-todo {
+    margin-left: 5px;
+    width: 200px;
+}
+
+.job-done {
+    background: rgb(218, 248, 233);
+}
+
+.edit-field {
+    width: 240px;
+}
+
+.hide {
+    display: none;
+}

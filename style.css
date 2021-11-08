@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 20px;
+}
+
+body > * {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+button {
+  margin-left: 5px;
+  height: 26px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 0;
+  margin-left: auto;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.delete-button, .edit-button {
+  margin-left: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 0;
+  margin-left: auto;
+  padding: 3px;
+  color: #e66868;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.edit-button {
+  color: #679c16;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-item {
+  line-height: 1.4em;
+}
+
+li {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3px;
+  background: #dcebff;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.check-box {
+  margin: 5px 10px 5px 5px;
+  cursor: pointer;
+}
+
+.submit-task-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  padding: 3px;
+  margin: 3px;
+}
+
+#new-todo {
+  margin-left: 5px;
+  width: 200px;
+}
+
+.job-done {
+  background: #daf8e9;
+}
+
+.edit-field {
+  width: 240px;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
